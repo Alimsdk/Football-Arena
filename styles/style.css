@@ -19,8 +19,7 @@
     
     
     .links ul,.button{display: flex;
-        
-        margin-top: 42px;
+              margin-top: 42px;
     }
     
     .links ul li{list-style: none;
@@ -187,3 +186,68 @@ margin-top: 100px;}
 height: 110px;}
 
 .copyright p{padding: 10px;}
+
+
+/* --------------------------
+------media query for mobile device
+-------------------- */
+
+@media (max-width:668px){
+          .top-header{
+              width: 100%;
+              height: 695px;
+          }
+          
+        ul li{display: none;}
+
+          .sign-in{margin-top: 0;}
+          .main-section{           
+              flex-direction: column;
+          }
+          .text-heading{
+            width: 80%;
+            margin:0;
+            }
+          .text-heading h2{font-size: 36px;
+            line-height: 50px;
+        margin-top: 46px;
+   }
+   .button{margin-top: 33px;}
+        .banner-img{width: 100%;
+            margin: 60px auto;}
+            
+            .banner-img img{width: 85%;}
+
+ /* players section style */
+
+ .players{display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 70px;
+    }
+
+/* blogs section style */
+
+.blogs{flex-direction: column;}
+
+/* hightlight secton style */
+.match-highlight{flex-direction: column;
+margin-top: 40px;}
+
+.match-info,.img-thumbnail{margin: 0;
+padding: 0;}
+
+.match-info{margin-top: 60px;
+width: 100%;}
+.match-info h2{font-size: 30px;
+line-height: 40px;
+padding: 0 61px;}
+.match-info p{text-align: center;}
+.img-thumbnail{width: 100%;
+margin-top: 30px;}
+.img-thumbnail img{width: 90%;
+display: flex;
+justify-content: center;}
+
+}
+
+
