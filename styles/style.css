@@ -42,13 +42,13 @@
     
     .fas{
         color: white;
-    font-size: 24px;
+    font-size: 22px;
     padding-left: 6px;
     
     }
     
     .button a{padding-left: 12px;
-    font-size: 16px;}
+    font-size: 15px;}
     
     /* main heading style starts here */
     
@@ -102,7 +102,7 @@
         
     }
     
-    .player-info p{font-family: Poppins;
+    .player-info p,.blog-details p{font-family: Poppins;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -114,3 +114,76 @@
         width: 300px;
         height: 256px;
     }
+
+    /* blog section style starts here */
+      .blogs-section{margin-top: 50px;}
+
+    .blogs-section h2{text-align: center;
+    margin-bottom: 30px;}
+
+    .blogs{display: flex;}
+
+      .blog{margin: auto;}
+
+    .blog,.blog-img{width: 350px;}
+    .blog-img{position: relative;}
+
+    .blog-img img{width: 100%;}
+
+    .blog-details{padding: 10px 30px;
+        position: absolute;
+        top: 0;
+        display: none;
+        height: 100%;
+        width: 100%;
+    }
+    .blog-details h3{color: white;
+       margin-top: 60px;}
+
+    .blog-details p{color: rgba(214, 214, 214, 0.883);}
+    .blog-img:hover .blog-details{
+        background-color: rgba(110, 110, 255, 0.664);
+        display: block;
+        
+    }
+    .blog-img{overflow: hidden;}
+   .blog-img:hover img{transform: scale(1.1);
+transition: transform 1s linear;
+}
+   
+/* highlights section style started */
+.match-highlight{display: flex;
+margin-top: 165px;}
+
+.match-info,.img-thumbnail{width: 50%;}
+
+.match-info{margin-left: 162px;
+}
+
+.match-info h2{font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+padding-top: 20px;
+padding-right: 80px;}
+
+.match-info p{padding-top: 8px;
+padding-right: 50px;
+color:#6C6C6C}
+
+.img-thumbnail img{width: 80%;
+}
+
+
+/* footer style  */
+
+footer{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 100px;}
+
+.footer-logo img{width: 280px;
+height: 110px;}
+
+.copyright p{padding: 10px;}
