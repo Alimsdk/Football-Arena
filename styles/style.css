@@ -1,0 +1,116 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;}
+    
+    /* --------top header style starts here 
+    ------------------------------*/
+    
+    .top-header{background-color: #2D25A0;
+        width: 100%;
+        height: 677px;
+    }
+    
+    .navigation-bar nav{display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    
+    
+    .links ul,.button{display: flex;
+        
+        margin-top: 42px;
+    }
+    
+    .links ul li{list-style: none;
+    margin-left: 36px;}
+    
+    .links ul li a,.button a{text-decoration: none;
+    color: white;
+    font-size: 16px;}
+    
+    .button{background-color: #E02C6D;
+        Width: 123px;
+        Height:44px;
+       display: flex;
+       align-items: center;
+       border-radius: 5px;
+     
+    }
+    .log-in{padding:10px 24px;}
+    
+    .fas{
+        color: white;
+    font-size: 24px;
+    padding-left: 6px;
+    
+    }
+    
+    .button a{padding-left: 12px;
+    font-size: 16px;}
+    
+    /* main heading style starts here */
+    
+    .main-section{display: flex;}
+    
+    .text-heading{width: 50%;
+    margin-left: 156px;
+    margin-top: 121px;}
+    
+    .text-heading h2{Font:Poppins;
+        font-weight:700;
+        font-size: 64px;
+        line-height: 80px;
+    padding: 0px 20px;
+    color: white;}
+    
+    #watch-match{margin-left: 20px;}
+    
+    #watch-match a{padding-left:0;}
+    
+    .banner-img{width: 50%;
+    margin-top: 67px;}
+    
+    .banner-img img{width: 90%;}
+    
+    .banner-img img:hover{
+        transform: rotate(20deg);
+        transition: transform 2s linear;
+    }
+    
+    /* main section style starts here */
+    
+    .players{display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 70px;
+    }
+    
+    
+    .player{width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin:27px auto;}
+    
+    .player-info h3{font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 40px;
+        color: #18191F;
+        
+    }
+    
+    .player-info p{font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #6C6C6C;
+    }
+    
+    .player img{
+        width: 300px;
+        height: 256px;
+    }
